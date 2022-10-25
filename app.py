@@ -13,20 +13,20 @@ def section(season):
     return render_template(f'{season}.html')
 
 @app.route("/Spring/<booth>")
-def booth(booth):
-    return render_template(f'{booth}.html')
+def Spring(booth):
+    return render_template(f'Spring{booth}.html')
 
 @app.route("/Summer/<booth>")
-def booth(booth):
-    return render_template(f'{booth}.html')
+def Summer(booth):
+    return render_template(f'Summer{booth}.html')
 
 @app.route("/Autumn/<booth>")
-def booth(booth):
-    return render_template(f'{booth}.html')
+def Autumn(booth):
+    return render_template(f'Autumn{booth}.html')
 
 @app.route("/Winter/<booth>")
-def booth(booth):
-    return render_template(f'{booth}.html')
+def Winter(booth):
+    return render_template(f'Winter{booth}.html')
 
 @app.route("/Picnic/<booth>")
 def booth(booth):
